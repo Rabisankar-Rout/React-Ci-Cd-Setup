@@ -17,3 +17,9 @@ jobs:
                  
       - name: "Check node version"
         run: node --version
+        
+
+      - name: "Clone repository"
+        uses: actions/checkout@v2
+
+
