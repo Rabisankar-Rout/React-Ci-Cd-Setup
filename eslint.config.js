@@ -16,7 +16,11 @@ export default [
         sourceType: 'module',
       },
     },
+    "extends": ["plugin:jest/recommended"],
+    settings: {react: { version: '18.3'}},
     plugins: {
+      react,
+      jest,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
